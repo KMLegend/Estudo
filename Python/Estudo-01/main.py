@@ -3,6 +3,3 @@
 # Tem que Ler o ID --> é a matricula.
 # Semanal --> só vale na semana que for selecionada.
 
-
-
-
