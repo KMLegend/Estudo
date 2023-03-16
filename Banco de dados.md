@@ -10,3 +10,8 @@ todo cliente é ou Pessoa Fisica ou é Pessoa Juridica.
 
 tipo de funcionario , pode assumir. Motorista (N) , Secretaria (P) ou nem um dos dois ( ) --> Vazio.
 ---
+ 
+ ## Especialização Não Exclusiva
+
+Pode ter mais de uma especialidade.
+---
