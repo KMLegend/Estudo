@@ -26,6 +26,7 @@ Não pode Haver relação entre relação --> transformar um relacionamento em u
 Relacionamento entre a entidade fraca com o medicamento --> Prescrição.
 ---
 
-
+### Software de criação de diagrama
+brModelo( Java )
 
 
