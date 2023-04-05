@@ -10,6 +10,29 @@
     <h1>Olá, seja bem vindo ao meu app</h1>
     <p>Meu nome é kevin!</p>
 
-    
+    <script>
+        function mostrar_tabela() {
+            var table = document.getElementById('table');
+        
+            db.transaction(function (tx) {
+                tx.executeSql('SELECT * pagamentos', [], function (tx, resultado) {
+                    var rows = resultado.rows;
+                    var tr = '';
+                    for (var i = 0; i < rows.length; i++) {
+                        tr += '<tr>';
+                        tr += '<td>' + rows[i].conta + '</td>';
+                        tr += '<td>' + rows[i].nome + '</td>';
+                        tr += '<td>' + rows[i].nsu + '</td>';
+                        tr += '<td>' + rows[i].valor + '</td>';
+                        tr += '<td>' + rows[i].data_vencimento + '</td>';
+                        tr += '<td>' + rows[i].data_hora_pagamento + '</td>';
+                        tr += '</tr>';
+                    }
+        
+                    table.innerHTML = tr;
+                });
+            });
+        }
+    </script>
 </body>
 </html>
