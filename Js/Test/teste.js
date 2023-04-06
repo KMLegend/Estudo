@@ -36,7 +36,7 @@ Insere na tabela.
 
 
 
-
+// isso é um model
 const Pagamentos = sequelize.define('pagamentos', {
     conta: {
         type: Sequelize.INTEGER
