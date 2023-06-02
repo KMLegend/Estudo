@@ -1,0 +1,20 @@
+2023-06-02 15:51:03,201 - INFO - O servidor foi iniciado.
+2023-06-02 15:51:03,201 - WARNING - O servidor atingiu 80% da capacidade.
+2023-06-02 15:51:03,201 - ERROR - Ocorreu um erro no servidor.
+2023-06-02 15:51:03,201 - ERROR - Ocorreu uma exceção
+Traceback (most recent call last):
+  File "c:\Users\kevin\Documents\Meus Projetos\Estudo\Python\sla\log-server.py", line 19, in <module>
+    raise Exception('Erro de exemplo')
+Exception: Erro de exemplo
+2023-06-02 15:51:35,540 - INFO - O servidor foi iniciado.
+2023-06-02 15:51:35,541 - WARNING - O servidor atingiu 80% da capacidade.
+2023-06-02 15:51:35,541 - ERROR - Ocorreu um erro no servidor.
+2023-06-02 15:51:35,541 - ERROR - Ocorreu uma exceção
+Traceback (most recent call last):
+  File "c:\Users\kevin\Documents\Meus Projetos\Estudo\Python\sla\log-server.py", line 19, in <module>
+    raise Exception('Erro de exemplo')
+Exception: Erro de exemplo
+2023-06-02 16:02:33,868 - INFO - Conectado ao servidor
+2023-06-02 16:02:33,869 - INFO - Dados enviados: b'Hello, server!'
+2023-06-02 16:02:55,807 - INFO - Resposta do servidor: Olá, cliente!
+2023-06-02 16:02:55,808 - INFO - Conexão fechada
