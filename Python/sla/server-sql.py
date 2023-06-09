@@ -5,7 +5,7 @@ import sqlite3
 server_address = ('127.0.0.1', 8080)
 
 # Cria uma conexão com o banco de dados SQLite
-conn = sqlite3.connect('database.db')
+conn = sqlite3.connect('C:\\Users\\kevin\\Documents\\Meus Projetos\\Estudo\\BD\\Projeto SLA\\database.db')
 cursor = conn.cursor()
 
 # Cria a tabela se não existir
