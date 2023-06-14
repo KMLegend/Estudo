@@ -1,7 +1,53 @@
-.cadastro {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 100px;
+* {
+    padding: 0;
+    margin: 0;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: cornflowerblue;
+    color: white;
+    font-family: Cambria, Arial;
+}
+
+form {
+    font-family: Arial;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
     
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+}
+
+form input, form textarea {
+    outline: unset;
+    padding: 20px;
+    min-width: 300px;
+    border: 1px solid cornflowerblue;
+    border-radius: 20px;
+}
+
+form input:focus, form textarea:focus {
+    background-color: rgba(78, 108, 206, 0.425);
+}
+
+form input[type=submit] {
+    background-color: rgba(78, 108, 206, 0.425);
+    color: white;
+    cursor: pointer;
+}
+form label {
+    margin-left: 10px;
 }
