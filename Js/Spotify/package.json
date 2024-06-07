@@ -1,0 +1,14 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "Aplicativo para Hub Web",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Maykel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
