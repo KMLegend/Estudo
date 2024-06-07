@@ -1,0 +1,11 @@
+{
+  "name": "sla",
+  "version": "1.0.0",
+  "description": "Testando algumas coisas com o node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Maykel",
+  "license": "ISC"
+}
